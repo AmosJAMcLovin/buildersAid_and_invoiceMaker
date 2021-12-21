@@ -1,0 +1,43 @@
+<html>
+
+<!-- 
+// Program Name: Interior Decorating Company Invoice
+
+// Purpose: Creating an invoice generating system for decorators
+// Task Number: 2
+// Student Name: Amos Johnson
+-->
+
+<body>
+	<script type="text/javascript">
+	
+		// Display "Decorating Xperts title and info"
+		document.write("Decorating Xperts" + "</br>");
+		document.write("2010 Ridgecrest Dr SE" + "</br>");
+		document.write("Albuquerque, New Mexico 87108" + "</br>");
+		document.write("decoratingxperts@outlook.com" + "</br>");
+		
+		<!-- // Declare Variable -->
+		var hoursWorked		
+		var totalBeforeTax		
+		var totalAfterTax 		
+
+		<!-- // Declare Constant -->
+		var hourlyWage = 20.00	
+		var tax = 0.10		
+		
+		<!-- // Receiving Input from decorator -->
+		hoursWorked = prompt("How many hours did you work this week? ");
+		hoursWorked;
+
+		<!-- // Calculations -->
+		totalBeforeTax = hoursWorked * hourlyWage
+		totalAfterTax = totalBeforeTax + (totalBeforeTax * tax)
+
+		document.write("Hours Worked: " + hoursWorked + "</br>");
+		document.write("Cost per hour: " + hourlyWage + "</br>");
+		document.write("Total Earnings before 10% tax charge: " + totalBeforeTax + "</br>");
+		document.write("Total Earnings after 10% tax charge: " + totalAfterTax + "</br>");
+		</script>
+	</body>
+</html>

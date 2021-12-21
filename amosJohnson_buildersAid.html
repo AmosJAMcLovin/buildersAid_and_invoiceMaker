@@ -1,0 +1,47 @@
+<html>
+<!--
+// Program Name: Calculating Square Footage 
+
+// Purpose: Calculating the cost for square footage in room
+// Task Number: 1
+// Student Name: Amos Johnson
+-->
+
+	<body>
+		<script type="text/javascript">
+		
+		// Display "Welcome to Bob the Builder's Construction"
+		document.write("Welcome to Bob the Builder's Construction" + "</br>");
+
+		// Declare Variable
+		var width  			
+		var length 			
+		var total			
+		var totalOwed 	        
+		var roomName                 
+		
+		// Declare Constant
+		var sqrMetreCost = 425.00	
+
+		// Receiving Input from customer
+		roomName = prompt("What is the name of the room you would like renovated? ", "Enter your room name here");
+		roomName;
+
+		width = prompt("What is the width of your room in metres? ");
+		width = parseInt(width);
+
+		length = prompt("What is the length of your room in metres? ");
+		length = parseInt(width);
+
+		// Calculations
+		totalMeasured = length * width
+		totalOwed = totalMeasured * sqrMetreCost
+
+		// Display the output
+		document.write("The " + roomName + " is measured at " + totalMeasured + 
+		" metres and the total cost is $" + totalOwed + "</br>");
+		document.write("Thank you!" +"</br>");
+		</script>
+	</body>
+</html>
+		
